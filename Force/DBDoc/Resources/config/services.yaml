@@ -4,7 +4,7 @@ services:
         autoconfigure: true
         public: false
         
-    Force\DBDoc\Controller:
+    Force\DBDoc\Controller\:
         resources: '../../Controller'
         tags: ['controller.service_arguments']
         
