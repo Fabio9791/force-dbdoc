@@ -9,7 +9,7 @@ class DocumentorController
     
     public function allAction()
     {
-        return new Response('Fabio is the best');
+        return new Response($this->content);
     }
     
     public function setContent(string $content)
